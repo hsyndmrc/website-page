@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .subscribe, footer, .p-dark, .form{
+    background-color: rgb(49, 62, 70);
+    color: white;
+}
+.left{
+    word-spacing: .3rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: .9rem;
+    border-bottom: 3px solid  rgb(153, 61, 153) ;
+}
+
+.right a{
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem;
+}
+
+span{
+    color: rgb(153, 61, 153);
+}
+
+button{
+    background-color: rgb(232, 73, 29);
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.section__right input{
+    padding: .2rem;
+}
+
+.main__image{
+    background-image: url(/img/showcase.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    /* padding-top: 8rem;
+    padding-bottom: 8rem ; */
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subscribe{
+    display: flex;
+    justify-content:space-between;
+    padding:1.2rem;
+}
+
+.logos{
+    display: flex;
+    text-align: center;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.logos img{
+    width: 5em;
+}
+
+
+footer img{
+    height: 2rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+
+/*-----ABOUT-----*/
+
+.about__section{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+}
+/* .p-dark{
+    margin-top: 1.3rem;
+} */
+
+.about__section p,h4{
+    padding: .8rem;
+}
+
+.aboutus__right{
+    background-color: rgb(49, 62, 70) ;
+    color: white;
+    /* padding-bottom: 0px; */
+    height: 15vh;
+    margin-top: .9rem;
+}
+
+
+/*------SERVICES-----*/
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 16rem;
+    /* gap:.3rem; */
+    padding: .8rem;
+}
+
+.send{
+    /* display: inline; */
+    padding: .3rem;
+    width: 3.5rem;
+    margin-top: .3rem;
+}
+
+.form h4{
+    padding: 0rem;
+    margin-bottom: .3rem;
+}
+
+.website{
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgba(166, 166, 166, 0.418);
+    margin: .6rem;
+    padding: 1rem;
+}
+
+
+
